@@ -1,0 +1,10 @@
+[package]
+name = "main-api-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.38", features = ["full"] }
+axum = "0.7"
+reqwest = "0.12"
+bytes = "1.6"
